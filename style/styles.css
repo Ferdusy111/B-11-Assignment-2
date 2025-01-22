@@ -17,7 +17,7 @@
 
 /* nav style----------------------------------nav style */
 .ham-burger{
-  display: hide;
+  display: none;
 }
 .navbar{
   width:1158px ;

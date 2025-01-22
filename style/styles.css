@@ -5,3 +5,99 @@
   font-weight: normal;
   font-style: normal;
 }
+
+/* shared style---------------------------------shared style */
+*{
+
+}
+
+
+
+
+
+/* nav style----------------------------------nav style */
+.ham-burger{
+  display: hide;
+}
+.navbar{
+  width:1158px ;
+  height:62px ;
+  margin: 0 auto;
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  display: flex;
+}
+.logo-img{
+  margin-right: 10px;
+}
+
+.nav-links{
+  display: flex;
+}
+.nav-item{
+  list-style: none;
+  margin-right: 30px;
+}
+.nav-link{
+  text-decoration: none;
+}
+.orange{ 
+  font-family: Quicksand;
+  font-size: 0.8rem;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.orange-1{
+  color: rgb(254, 163, 1);
+}
+.violet{ 
+  font-family: Quicksand;
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.violet-1{
+  color: rgb(1, 172, 253);
+}
+.mint{ 
+  font-family: Quicksand;
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.mint-1{
+  color: rgb(5, 212, 223);
+}
+.blue{
+  font-family: Quicksand;
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.blue-1{
+  color: rgb(93, 88, 239);
+}
+.nav-button{ 
+  border-radius: 12px;
+  background: rgb(254, 163, 1);
+  color: rgb(255, 255, 255);
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+  border: none;
+  padding:5px 60px ;
+}

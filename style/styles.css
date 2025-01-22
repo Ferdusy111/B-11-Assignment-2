@@ -23,7 +23,7 @@
   width:1158px ;
   height:62px ;
   margin: 0 auto;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -100,4 +100,28 @@
   text-align: left;
   border: none;
   padding:5px 60px ;
+}
+/* Responsive navbar--------------- */
+@media screen and (max-width:576px){
+  .navbar{
+      width:390px ;
+      height:70px ;
+      border:2px solid rgb(254, 163, 1); ;
+  }
+  .school{
+    display: none;
+  }
+  .anchor{
+    display: none;
+  }
+  .button{
+    display: none;
+  }
+  .ham-burger{
+    display: block;
+    margin-right: 10px;
+  }
+  .logo{
+    margin-left: 10px;
+  }
 }

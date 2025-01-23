@@ -125,3 +125,46 @@
     margin-left: 10px;
   }
 }
+
+/* banner style----------------------------banner style */
+.banner{
+  width:1158px ;
+  height:575px ;
+  margin: 0 auto;
+  border: 2px solid red ;
+  display: flex;
+  justify-content: space-between;
+}
+.banner-content{
+  max-width:640px ;
+  height:331px ;
+  border: 2px solid black;
+  margin-top: 100px;
+}
+.banner-title{
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 61px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.banner-description{ 
+  color: rgb(17, 17, 17);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 0px;
+}
+.banner-button{ 
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+  border-radius: 12px;
+  background: rgb(17, 17, 17);
+  padding: 8px 30px;
+}

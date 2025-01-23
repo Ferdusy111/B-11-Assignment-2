@@ -7,9 +7,7 @@
 }
 
 /* shared style---------------------------------shared style */
-*{
 
-}
 
 
 
@@ -193,3 +191,146 @@
   }
 }
 
+
+/* standard curriculum style------------------------- */
+.bg-img{
+  background-image: url(../assets/bg.png);
+}
+.standard-curriculum{
+  width:1160px ;
+  height:750px ;
+  margin: 0 auto;
+  /* border: 2px solid red; */
+  margin-top: 60px;
+}
+.standard-curriculum-title{ 
+  color: rgb(0, 0, 0);
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 57.5px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.card-container{
+  display: flex;
+  gap: 28px;
+}
+.card-1{
+  width:368px ;
+  height:477px ;
+  box-sizing: border-box;
+  border: 0.94px solid rgb(222, 245, 255);
+  border-radius: 18.86px;
+  box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+  background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.card-2{
+  width:368px ;
+  height:477px ;
+  box-sizing: border-box;
+  border: 0.94px solid rgb(255, 244, 220);
+  border-radius: 18.86px;
+  box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+  background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.card-3{
+  width:368px ;
+  height:477px ;
+  box-sizing: border-box;
+  border: 0.94px solid rgb(242, 232, 255);
+  border-radius: 18.86px;
+  box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+  background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.card-img{
+  margin-left: 117px;
+  margin-top:53px ;
+  margin-bottom: 32px;
+}
+.card-title{ 
+  color: rgb(32, 32, 32);
+  font-size: 24.52px;
+  font-weight: 700;
+  line-height: 30.65px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.card-description{ 
+  color: rgb(128, 128, 128);
+  font-family: Raleway;
+  font-size: 15.09px;
+  font-weight: 500;
+  line-height: 28.3px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.card-btn-1{ 
+  color: rgb(100, 200, 255);
+  font-family: Quicksand;
+  font-size: 15.09px;
+  font-weight: 700;
+  line-height: 28.3px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.card-btn-2{
+  color: rgb(240, 170, 0);
+font-family: Quicksand;
+font-size: 15.09px;
+font-weight: 700;
+line-height: 28.3px;
+letter-spacing: 0%;
+text-align: center;
+}
+.card-btn-3{ 
+  color: rgb(135, 0, 255);
+  font-family: Quicksand;
+  font-size: 15.09px;
+  font-weight: 700;
+  line-height: 28.3px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.arrow-container{
+  display: flex;
+  /* height: 100vh; */
+  margin-top: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.arr{
+  background: rgb(254, 163, 1);
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 5px;
+  transition: 0.4s ease;
+}
+.arr:hover{
+  background: whitesmoke;
+}
+/* .arr div{ */
+  /* position: fixed; */
+  /* height: 20px; */
+  /* width: 20px; */
+  /* border-top: 8px solid black; */
+  /* border-left: 8px solid black; */
+  /* transform: rotate(45deg); */
+  /* left */
+  /* top: 35px; */
+/* } */
+
+/* * Responsive banner---------------------- */ 
+@media screen and (max-width:576px){
+   .standard-curriculum{
+    width: 100%;
+    margin-top: 230px;
+   }
+   .card-container{
+    flex-direction: column;
+   }
+   .arrow-container{
+    display: none;
+   }
+}
+ 

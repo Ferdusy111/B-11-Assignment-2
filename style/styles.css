@@ -7,12 +7,12 @@
 }
 
 /* shared style---------------------------------shared style */
-
-
-
-
-
-
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; 
+}
+/* _____________________________1st part______________________________ */
 /* nav style----------------------------------nav style */
 .ham-burger{
   display: none;
@@ -32,7 +32,6 @@
 .logo-img{
   margin-right: 10px;
 }
-
 .nav-links{
   display: flex;
 }
@@ -123,7 +122,7 @@
     margin-left: 10px;
   }
 }
-
+/* ____________________________2nd part_________________________ */
 /* banner style----------------------------banner style */
 .banner{
   width:1158px ;
@@ -191,7 +190,7 @@
   }
 }
 
-
+/* ___________________________3rd part_______________________ */
 /* standard curriculum style------------------------- */
 .bg-img{
   background-image: url(../assets/bg.png);
@@ -333,4 +332,153 @@ text-align: center;
     display: none;
    }
 }
+ /* __________________________________4th part____________________________ */
+ /* our story style------------------------ */
+ .our-story-section{
+  width:1440px ;
+  height:1040px ;
+  margin: 0 auto;
+  padding: 60px 0px 60px 0px;
+  background: url(image),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+  /* border: 2px solid green; */
+ }
+ .story-title{ 
+  color: rgb(0, 0, 0);
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 57.5px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 80px;
+ }
+ .pic-card-container{
+  width:1160px ;
+  height:630px ;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid aqua; */
+ }
+ .pic-card-left{
+  width:540px ;
+  height:630px ;
+ }
+ .pic-1{
+  height: 50%;
+  border-radius: 16px 16px 0px 0px;
+  margin: 0;
+  padding: 0;
+  background: url(),rgb(217, 217, 217);
+ }
+ .pic-text{ 
+  /* width: 540.27px; */
+  /* height: 360.52px; */
+  height: 45%;
+  border-radius: 0px 0px 16px 16px;
+  background: rgb(255, 255, 255);
+}
+ .pic-1-title{
+  width: 402px;
+  height: 69px;
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-left: 35px;
+ }
+ .pic-1-btn{
+  width:174px ;
+  height:47px ;
+  border-radius: 47.93px;
+  background: rgb(60, 216, 232);
+  border: none; 
+  color: rgb(255, 255, 255);
+  font-family: Raleway;
+  font-size: 15.34px;
+  font-weight: 500;
+  line-height: 28.76px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  position: relative;
+  top: -30px;
+  margin-left: 30px;
+ }
+ .pic-1-description{ 
+  color: rgb(102, 102, 102);
+  font-family: Raleway;
+  font-size: 15.34px;
+  font-weight: 500;
+  line-height: 28.76px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 433px;
+  height: 75px;
+  margin-top: 50px;
+  margin-left:35px ;
+ }
+ .pic-card-right{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 19px;
+ }
+ .pic-card{
+  width: 290px;
+  height: 301px;
+ }
+ .pic-2{ 
+  border-radius: 16px 16px 0px 0px;
+  background: url(),rgb(255, 255, 255);
+ }
+ .pic-right-text{
+  height: 38%;
+  border-radius: 0px 0px 16px 16px;
+  background: rgb(255, 255, 255);
+ }
+ .green-btn{ 
+  border-radius: 47.93px;
+  border: none;
+  background: rgb(149, 178, 38);
+  color: rgb(255, 255, 255);
+  font-family: Raleway;
+  font-size: 15.34px;
+  font-weight: 500;
+  line-height: 28.76px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 3px 10px;
+  position: relative;
+  top: -20px;
+  margin-left: 30px;
+ }
+ .blue-btn{ border-radius: 47.93px;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-family: Raleway;
+  font-size: 15.34px;
+  font-weight: 500;
+  line-height: 28.76px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 3px 10px;
+  position: relative;
+  top: -20px;
+  margin-left: 30px;
+  border-radius: 47.93px;
+  background: rgb(93, 88, 240);
+ }
+ .pic-card-title{ 
+  color: rgb(0, 0, 0);
+  font-family: Quicksand;
+  font-size: 15.34px;
+  font-weight: 700;
+  line-height: 28.76px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-left: 37px;
+ }
+
  

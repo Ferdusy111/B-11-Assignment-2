@@ -12,6 +12,9 @@
   margin: 0;
   padding: 0; 
 }
+.hide{
+  display: none;
+}
 /* _____________________________1st part______________________________ */
 /* nav style----------------------------------nav style */
 .ham-burger{
@@ -28,6 +31,7 @@
 }
 .logo{
   display: flex;
+  align-items: center;
 }
 .logo-img{
   margin-right: 10px;
@@ -152,7 +156,8 @@
   line-height: 25px;
   letter-spacing: 0%;
   text-align: left;
-  margin-top: 0px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 .banner-button{ 
   color: rgb(255, 255, 255);
@@ -169,12 +174,15 @@
 @media screen and (max-width:576px){
   .banner{
     width:390px ;
-    width: 100%;
+    width: 90%;
     height:725px ;
     margin: 0 auto;
     flex-direction: column-reverse;
-    margin-top: 220px;
+    margin-top: 130px;
     /* border: 2px solid green; */
+  }
+  .banner-content{
+    margin-top: 20px;
   }
   .banner-img{
     width: 100%;
@@ -186,7 +194,7 @@
     text-align: center;
   }
   .banner-button{
-    margin-left: 110px;
+    margin-left: 95px;
   }
 }
 
@@ -213,6 +221,7 @@
 .card-container{
   display: flex;
   gap: 28px;
+  margin-top: 80px;
 }
 .card-1{
   width:368px ;
@@ -322,11 +331,24 @@ text-align: center;
 /* * Responsive banner---------------------- */ 
 @media screen and (max-width:576px){
    .standard-curriculum{
-    width: 100%;
-    margin-top: 230px;
+    width: 90%;
+    margin-top: 180px;
+   }
+   .standard-curriculum-title {
+    font-size: 26px;
    }
    .card-container{
     flex-direction: column;
+    margin-top: 30px;
+   }
+   .card-1{
+    width: 100%;
+   }
+   .card-2{
+    width: 100%;
+   }
+   .card-3{
+    width: 100%;
    }
    .arrow-container{
     display: none;
@@ -341,6 +363,7 @@ text-align: center;
   padding: 60px 0px 60px 0px;
   background: url(image),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
   /* border: 2px solid green; */
+  border-top: 2px dashed gainsboro;
  }
  .story-title{ 
   color: rgb(0, 0, 0);
@@ -480,5 +503,114 @@ text-align: center;
   text-align: left;
   margin-left: 37px;
  }
-
- 
+ .view-btn{
+  border-radius: 12px;
+  background: rgb(17, 17, 17);
+   color: rgb(255, 255, 255);
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 8px 55px;
+  margin-left: 621px;
+  margin-top: 80px;
+ }
+ /* * Responsive our story---------------------- */ 
+@media screen and (max-width:576px){
+  .our-story-section{
+    margin-top: 900px;
+    width: 100%;
+  }
+  .pic-card-left{
+    display: none;
+  }
+  .pic-card{
+    width: 185px;
+  }
+  .pic-card-right {
+    margin-left: 20px;
+  }
+  .pic-2{
+    width: 100%;
+  }
+  .pic-card-container {
+    width: 100%;
+    justify-content: none;
+  }
+  .pic-right-text {
+    height: 45%;
+  }
+  .view-btn {
+    margin-left: 120px;
+    margin-top: 0%;
+  }
+}
+/* ________________________________5th part____________________________________ */
+.footer{
+  width:1439px ;
+  height:519px ;
+  margin: 0 auto;
+  background: rgb(1, 172, 253);
+}
+.footer-container{
+  width:1070px ;
+  height:222px ;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  position: relative;
+  top: 123px;
+  /* border: 2px solid black; */
+}
+.footer-icon{
+  display: flex;
+}
+.footer-title{ 
+  color: rgb(255, 255, 255);
+  font-family: Quicksand;
+  font-size: 42.14px;
+  font-weight: 700;
+  line-height: 39.51px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.footer-description{ 
+  color: rgb(255, 255, 255);
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 35px;
+}
+.footer-middle{
+  margin-left: 90px;
+}
+.item-title{ 
+  color: rgb(255, 255, 255);
+  font-family: Quicksand;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.item{ 
+  color: rgb(255, 255, 255);
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 23px;
+}
+.footer-right{   
+  margin-left: 90px;
+}
+.icon{
+  margin-top: 35px;
+}

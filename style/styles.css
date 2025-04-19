@@ -119,7 +119,7 @@
     display: none;
   }
   .ham-burger{
-    display: block;
+    display:block;
     margin-right: 10px;
   }
   .logo{
@@ -618,7 +618,7 @@ text-align: center;
 @media screen and (max-width:576px){
   .footer{
     width: 100%;
-    height: 720px;
+    height: 770px;
   }
   .footer-container{  
     width: 100%;

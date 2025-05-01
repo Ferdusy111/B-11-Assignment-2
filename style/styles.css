@@ -614,6 +614,10 @@ text-align: center;
 .icon{
   margin-top: 35px;
 }
+.mark{
+  color: white;
+  margin-top: 170px;
+}
 /* * Responsive our story---------------------- */ 
 @media screen and (max-width:576px){
   .footer{
@@ -635,5 +639,9 @@ text-align: center;
   .footer-right {
     margin-left: 15px;
     margin-top: 20px;
+  }
+  .mark{
+    color: white;
+    margin-top: 490px;
   }
 }
